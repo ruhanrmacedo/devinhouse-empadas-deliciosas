@@ -32,14 +32,20 @@ body {
 main .bg-light {
     background-color: white; 
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px 20px !important;
+    max-width: 800px;
+    margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 main h2 {
     color: #FFA500; 
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 main p {
     color: #6c757d; 
+    font-size: 0.90rem;
 }
