@@ -28,7 +28,6 @@ body {
     color: #343a40; 
 }
 
-
 main .bg-light {
     background-color: white; 
     border-radius: 5px;
@@ -48,4 +47,59 @@ main h2 {
 main p {
     color: #6c757d; 
     font-size: 0.90rem;
+}
+
+/* Estilos específicos para a página Sobre Nós */
+.sobre-nos h2 {
+    color: #FFA500;
+    font-size: 1.5rem;
+
+}
+
+.sobre-nos p {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.sobre-nos .team-container {
+    display: flex;
+    justify-content:space-around; 
+    align-items: center; 
+}
+
+.sobre-nos figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 150px;
+    vertical-align: top;
+}
+
+.sobre-nos img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sobre-nos figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sobre-nos figcaption small {
+    display: block;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.sobre-nos iframe {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+.map {
+    text-align: center;
 }
