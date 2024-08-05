@@ -45,11 +45,10 @@ main h2 {
 }
 
 main p {
-    color: #6c757d; 
     font-size: 0.90rem;
 }
 
-/* Estilos específicos para a página Sobre Nós */
+/* Estilos específicos para a interface Sobre Nós */
 .sobre-nos h2 {
     color: #FFA500;
     font-size: 1.5rem;
@@ -57,7 +56,6 @@ main p {
 }
 
 .sobre-nos p {
-    color: #6c757d;
     font-size: 0.9rem;
 }
 
@@ -102,4 +100,89 @@ main p {
 
 .map {
     text-align: center;
+}
+
+/* Estilos específicos para a interface Sobre Cardápio */
+.cardapio h2 {
+    color: #FFA500;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cardapio figure {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.cardapio img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cardapio figcaption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.cardapio p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.cardapio table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.cardapio th, .cardapio td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.cardapio th {
+    background-color: #ffc107;
+    color: white;
+    font-weight: bold;
+}
+
+.cardapio h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Estilos específicos para a interface de Contato */
+.contato h2, .contato h3 {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.contato p {
+    font-size: 0.90rem;
+}
+
+.contato form {
+    margin-top: 20px;
+}
+
+.contato .form-control {
+    border-radius: 0;
+}
+
+.contato .btn-primary {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    font-weight: bold;
+}
+
+.contato .btn-primary:hover {
+    background-color: #cc8400;
+    border-color: #cc8400;
 }
